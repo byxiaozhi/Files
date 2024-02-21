@@ -536,7 +536,7 @@
 					Style="{StaticResource AddressToolbarButtonStyle}">
 					<Grid>
 						<Viewbox Width="16">
-							<Image Source="ms-appx:///Assets/AppTiles/Dev/Logo.ico" />
+							<Image Source="\Assets\AppTiles\Dev\Logo.ico" />
 						</Viewbox>
 						<FontIcon Foreground="{ThemeResource WarningGradientBrush}" Glyph="&#xea82;" />
 						<FontIcon Foreground="Black" Glyph="&#xea84;" />

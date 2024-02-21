@@ -5,7 +5,7 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-	Title="Re-installation is required"
+	Title="Reinstallation is required"
 	PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
 	PrimaryButtonStyle="{StaticResource AccentButtonStyle}"
 	PrimaryButtonText="More info"
@@ -14,7 +14,6 @@
 	mc:Ignorable="d">
 
 	<StackPanel Width="360" Spacing="12">
-		<TextBlock Text="Starting 3/21/2024, a reinstallation of Files is required in order to continue receiving automatic updates." />
-		<TextBlock Text="Please see our documentation for additional help and resources regarding this message." />
+		<TextBlock Text="Updates for this version of Files will cease after March 31, 2024. Reinstall Files for continued updates. For further assistance, please refer to our documentation" TextWrapping="WrapWholeWords" />
 	</StackPanel>
 </ContentDialog>
