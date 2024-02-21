@@ -14,6 +14,7 @@
 	mc:Ignorable="d">
 
 	<StackPanel Width="360" Spacing="12">
-		<TextBlock Text="Updates for this version of Files will cease after March 31, 2024. Reinstall Files for continued updates. For further assistance, please refer to our documentation" TextWrapping="WrapWholeWords" />
+		<TextBlock Text="Updates for this version of Files will cease after March 31, 2024." TextWrapping="WrapWholeWords" />
+		<TextBlock Text="Reinstall Files for continued updates. For further assistance, please refer to our documentation." TextWrapping="WrapWholeWords" />
 	</StackPanel>
 </ContentDialog>
